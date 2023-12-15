@@ -9,7 +9,7 @@ function Header() {
     <header className={`${styles.header} container fluid`}>
       <div className={styles.headerWrapper}>
         <Link className={styles.logo} href="/">
-          <FaPlayCircle /> AKİNON
+          <FaPlayCircle color="red" /> AKİNON
         </Link>
         <nav className={styles.navigationMenu}>
           <Link href="/filmler">FİLM</Link>
