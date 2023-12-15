@@ -9,7 +9,7 @@ async function fetchData(path, { query = "" } = {}) {
 
   try {
     const res = await fetch(
-      `${BASE_URL}${path}?api_key=${process.env.THE_MOVIE_DB_API_KEY}&${query}`
+      `${BASE_URL}${path}?api_key=45553a2ad983c02cea1641937b5f3714&${query}`
     );
     return res.json();
   } catch (error) {
