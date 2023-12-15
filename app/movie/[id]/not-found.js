@@ -15,7 +15,7 @@ function Movie404() {
       <h1>Aradığınız film bulunmamaktadır!</h1>
       <Link
         href="/"
-        style={{ textDecoration: "underline", fontSize: 20, marginTop: 8 }}
+        style={{ textDecoration: "underline", background: 'transparent !important', border: 'none !important', fontSize: 20, marginTop: 8 }}
       >
         Ana Sayfaya Dön
       </Link>
