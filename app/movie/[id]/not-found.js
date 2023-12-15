@@ -12,10 +12,10 @@ function Movie404() {
         flexDirection: "column",
       }}
     >
-      <h1>Aradığınız film bulunmamaktadır!</h1>
+      <h1>Aramış olduğunuz kriterlere uygun film bulunmamaktadır!</h1>
       <Link
         href="/"
-        style={{ textDecoration: "underline", background: 'transparent !important', border: 'none !important', fontSize: 20, marginTop: 8 }}
+        style={{ textDecoration: "underline", background: 'transparent', border: 'none', fontSize: 20, marginTop: 8 }}
       >
         Ana Sayfaya Dön
       </Link>
