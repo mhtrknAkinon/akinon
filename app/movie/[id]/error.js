@@ -13,12 +13,12 @@ function Movie404() {
         flexDirection: "column",
       }}
     >
-      <h1>An error has occurred. Sorry for that! </h1>
+      <h1>Oops, beklenmedik bir hata gerçekleşti!</h1>
       <Link
         href="/"
         style={{ textDecoration: "underline", fontSize: 20, marginTop: 8 }}
       >
-        Go home
+        Ana Sayfaya Dön
       </Link>
     </div>
   );
